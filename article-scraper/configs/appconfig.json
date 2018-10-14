@@ -1,0 +1,7 @@
+{
+  "ENABLE_DEBUG": true,
+  "ENABLE_LOGS": true,
+  "LOG_FILE_LOCATION": "log.txt",
+  "STOP_CRAWL": 10,
+  "ARTICLE_ELEMENT_FILE": "./data/Domain_Newspaper.csv"
+}
