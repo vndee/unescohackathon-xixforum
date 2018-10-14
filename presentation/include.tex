@@ -1,0 +1,99 @@
+\usefonttheme[onlymath]{serif}
+
+
+
+
+
+% packages 
+\usepackage{amsmath,amssymb}
+\usepackage[linesnumbered,ruled]{algorithm2e}
+\usepackage[utf8]{vietnam}
+\usepackage{graphicx}
+\usepackage{animate}
+\usepackage{hyperref}
+\usepackage{amsmath,amsfonts,amsthm,bm}
+\usepackage{amssymb}
+\usepackage{mathtools}  
+\usepackage{amsthm}
+\usepackage{systeme}
+\usepackage{esvect}
+\usepackage{tikz}
+
+
+%\mathtoolsset{showonlyrefs}
+% set title 
+% [text] will not display)
+% 
+
+%\institute{Khoa Công nghệ thông tin, Trường Đại học Tôn Đức Thắng}
+
+
+% change itemize to square
+\setbeamertemplate{itemize items}[square]
+% custom itemize size 
+\setbeamertemplate{itemize/enumerate body begin}{\large}
+\setbeamertemplate{itemize/enumerate subbody begin}{\small}
+\setbeamertemplate{frametitle}{\bfseries\insertframetitle\par\vskip-6pt\hrulefill}
+% set footer 
+% 40% author 
+% 60% title and pages
+\setbeamertemplate{footline}
+{
+	\leavevmode%
+	\hbox{%
+		\begin{beamercolorbox}[wd=.4\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+			\usebeamerfont{author in head/foot}\insertshortauthor
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.6\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+			\usebeamerfont{title in head/foot}\insertshorttitle \hspace*{12em}
+			\insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+		\end{beamercolorbox}}%
+		\vskip0pt%
+}
+\setbeamertemplate{navigation symbols}{}
+\newcommand{\minimize}[1]{\underset{#1}{\text{minimize }}}
+\newcommand{\loss}[2]{\mathcal{L}(#1, #2)}
+\renewcommand{\vec}[1]{\bm{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\bR}{\mathbb{R}}
+% gradient 
+\newcommand{\grad}{\nabla}
+\newcommand{\range}[1]{\left(#1\right)}
+
+\setbeamersize{text margin left=3mm,text margin right=3mm} 
+
+\newcommand{\includetikz}[2]{%  
+	\scalebox{#1}{\input{#2}}  
+}
+
+\setbeamerfont{footnote}{size=\tiny}
+
+\usepackage{listings}
+\lstset{
+	language=Python,
+	tabsize=3,
+	escapeinside={@*}{*@},
+	%frame=lines,
+	label=code:sample,
+	frame=shadowbox,
+	rulesepcolor=\color{gray},
+	xleftmargin=20pt,
+	framexleftmargin=15pt,
+	keywordstyle=\color{blue}\bf,
+	commentstyle=\color{gray},
+	stringstyle=\color{red},
+	numbers=left,
+	numberstyle=\tiny,
+	numbersep=5pt,
+	breaklines=true,
+	showstringspaces=false,
+	basicstyle=\footnotesize,
+	emph={food,name,price},emphstyle={\color{magenta}}
+}
+
+\newcommand\margintop{\rule{0pt}{3.3ex}}       % "top" strut
+\newcommand\marginbottom{\rule[-1.6ex]{0pt}{0pt}} % "bottom" strut
+\newcommand{\margin}{\margintop\marginbottom} % top&bottom struts
+
+
