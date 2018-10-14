@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  14 OCT 2018 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  14 OCT 2018 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -857,18 +857,23 @@ thkerncmss.
 <02.jpg, id=30, 361.35pt x 371.3875pt>
 File: 02.jpg Graphic file (type jpg)
 <use 02.jpg>
-Package pdftex.def Info: 02.jpg  used on input line 64.
+Package pdftex.def Info: 02.jpg  used on input line 65.
 (pdftex.def)             Requested size: 144.53743pt x 148.55235pt.
+<mag.png, id=31, 4111.36pt x 1032.85875pt>
+File: mag.png Graphic file (type png)
+<use mag.png>
+Package pdftex.def Info: mag.png  used on input line 65.
+(pdftex.def)             Requested size: 287.8246pt x 72.3075pt.
  [3
 
- <./02.jpg>]
-<03.png, id=36, 943.525pt x 392.46625pt>
+ <./02.jpg> <./mag.png (PNG copy)>]
+<03.png, id=37, 943.525pt x 392.46625pt>
 File: 03.png Graphic file (type png)
 <use 03.png>
-Package pdftex.def Info: 03.png  used on input line 71.
+Package pdftex.def Info: 03.png  used on input line 72.
 (pdftex.def)             Requested size: 330.2387pt x 137.36523pt.
 
-Overfull \hbox (22.94882pt too wide) in paragraph at lines 71--71
+Overfull \hbox (22.94882pt too wide) in paragraph at lines 72--72
  [] 
  []
 
@@ -888,19 +893,19 @@ Overfull \hbox (22.94882pt too wide) in paragraph at lines 71--71
 \tf@snm=\write8
 \openout8 = `slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
  (./slide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
 Package rerunfilecheck Info: File `slide.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16830 strings out of 492982
- 318887 string characters out of 6134895
+ 16834 strings out of 492982
+ 318938 string characters out of 6134895
  390023 words of memory out of 5000000
- 20008 multiletter control sequences out of 15000+600000
+ 20012 multiletter control sequences out of 15000+600000
  10990 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,793b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -909,10 +914,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on slide.pdf (6 pages, 180922 bytes).
+Output written on slide.pdf (6 pages, 984574 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
